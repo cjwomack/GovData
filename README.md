@@ -67,7 +67,7 @@ A modern, searchable interface that connects fragmented government datasets acro
 
 #cd /Users/yangli/gov-data-discovery
 cd ~
-git clone [https://](https://github.com/lillian0624/GovData.git)
+git clone https://github.com/lillian0624/GovData.git
 cd GovData
 npm install
 ```
