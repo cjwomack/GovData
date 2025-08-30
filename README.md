@@ -56,8 +56,17 @@ A modern, searchable interface that connects fragmented government datasets acro
 ## 📋 Installation
 
 ### Prerequisites
-- Node.js 18+
-- npm or yarn
+Approach 1
+- **Node.js 18+** - [Download here](https://nodejs.org/)
+- **npm** or **yarn** package manager
+- **Git** for version control
+
+Approach 2
+a) Download conda environment
+```bash
+conda create -n govconnect nodejs=18
+conda activate govconnect
+```
 
 ### Quick Start
 
@@ -67,6 +76,8 @@ A modern, searchable interface that connects fragmented government datasets acro
 
 #cd /Users/yangli/gov-data-discovery
 cd ~
+mkdir govconnect
+cd govconnect
 git clone https://github.com/lillian0624/GovData.git
 cd GovData
 npm install
@@ -82,6 +93,10 @@ npx prisma db push
 
 # Seed with sample data
 npx prisma db seed
+```
+
+```bash
+.\setup.sh
 ```
 
 3. **Configure environment (optional)**:
