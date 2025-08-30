@@ -63,7 +63,12 @@ A modern, searchable interface that connects fragmented government datasets acro
 
 1. **Clone and install dependencies**:
 ```bash
-cd /Users/yangli/gov-data-discovery
+
+
+#cd /Users/yangli/gov-data-discovery
+cd ~
+git clone [https://](https://github.com/lillian0624/GovData.git)
+cd GovData
 npm install
 ```
 
